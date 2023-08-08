@@ -1,36 +1,36 @@
-typeof '' srting
+typeof '' 'srting'
 
-typeof 'hadi' string
+typeof 'hadi' 'string'
 
-typeof 'true' string
+typeof 'true' 'string'
 
-typeof true boolean
+typeof true 'boolean'
 
-typeof function () {} function
+typeof function () {} 'function'
 
-typeof (() => {}) function
+typeof (() => {}) 'function'
 
-typeof 10 number
+typeof 10 'number'
 
-typeof undefined undefined
+typeof undefined 'undefined'
 
-typeof null object
+typeof null 'object'
 
-typeof typeof null string
+typeof typeof null 'string'
 
-typeof typeof 'anything' string
+typeof typeof 'anything' 'string'
 
-typeof { name: 'hadi' } object
+typeof { name: 'hadi' } 'object'
 
-typeof NaN number
+typeof NaN 'number'
 
-typeof new Date() object
+typeof new Date() 'object'
 
-typeof new BigInt('100000000000000000')  bigint
+typeof new BigInt('100000000000000000')  'bigint'
 
-typeof class foo {}  function
+typeof class foo {}  'function'
 
-typeof Math  object
+typeof Math  'object'
 
 
 Boolean(undefined)  false
